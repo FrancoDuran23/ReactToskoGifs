@@ -14,7 +14,7 @@ export const GifExpertApp = () => {
     // }
     return (
         <>
-            <img class="logo animate__animated animate__jackInTheBox" src="https://i.ibb.co/Z1H8Cv4/titulo.png" alt="ToskoGifs" ></img>
+            <img class="logo animate__animated animate__jackInTheBox" src="https://i.ibb.co/Z1H8Cv4/titulo.png" alt="ToskoGifz" ></img>
 
             <AddCategory setCategories={setCategories} />
             <hr />
