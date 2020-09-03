@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
-import logo from '.././assets/titulo.png'
+import logo from 'src/assets/titulo.png'
+
 
 export const GifExpertApp = () => {
     // const categories = ['Rasta','Pony','Bola 8']
