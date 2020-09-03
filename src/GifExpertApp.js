@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
-import logo from 'https://i.ibb.co/Z1H8Cv4/titulo.png'
+
 
 
 export const GifExpertApp = () => {
@@ -14,7 +14,7 @@ export const GifExpertApp = () => {
     // }
     return (
         <>
-            <img class="logo animate__animated animate__jackInTheBox" src={logo} alt="ToskoGifs" ></img>
+            <img class="logo animate__animated animate__jackInTheBox" src="https://i.ibb.co/Z1H8Cv4/titulo.png" alt="ToskoGifs" ></img>
 
             <AddCategory setCategories={setCategories} />
             <hr />
